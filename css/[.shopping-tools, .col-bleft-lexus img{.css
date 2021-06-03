@@ -1,0 +1,143 @@
+[.shopping-tools, .col-bleft-lexus img{
+    max-width: 100%;
+    float: inline-end;
+  } 
+  .shopping-tools, .col-bright-buga img{
+    max-width: 100%;
+    float:right;
+  }
+
+
+
+
+  
+  [<div class="col-bleft-lexus">
+  <img src="img/lexus.jpg" alt="this is a lexus car">
+  </div>
+  <div class="col-bright-buga">
+  <img src="img/cardp.jpg" alt=" this is a bugatti car">
+  </div>]
+
+
+  .shopping-tools .col-bleft-lexus, .shopping-tools .col-bright-buga
+
+  .shopping-tools, .col-right-bmw img{
+    max-width: 100%;
+    float: right;
+  }
+
+
+
+
+  padding: 10px 25px;
+  
+  font-weight: bold;
+  margin: 15px 10px;
+  display: inline-block;
+  border-radius: 15px;
+}
+
+
+
+
+
+
+
+
+<div class="col-right-bmw">
+<img src="img/bmw.jpg" alt="this is a bmw car">
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<header class="audi-car">
+<div  class="shopping-tools">
+   <h2 class="shopping-title">shopping tools</h2>
+</div>
+
+
+<div class= "test-on-audi">
+       <a href="#"class="all-vehicle">ALL VEHICLES</a>   
+   </div>  
+   
+</div>
+</header>
+
+<header class="bmw-car">
+<div class= "test-on-bmw">
+   <a href="#"class="all-vehicle">build your own</a>   
+</div>  
+
+</div>
+</header> 
+
+
+
+
+ /*--shoping tool section--*/
+
+ .audi-car{
+    background-image: url(../img/audi.jpg);
+    max-width: 100%;
+    margin-left: 10px;
+    border-radius: 50px;
+    border-left: 30px;
+    width: 1000px;
+   } 
+   
+  .bmw-car{ 
+    background-image: url(../img/bmw.jpg);
+    max-width: 100%;
+    margin-left: 10px;
+    border-radius: 50px;
+    border-left: 30px;
+    width: 1000px;
+  } 
+  
+  .shopping-tools {
+   width: 100%;
+   background-color: burlywood;
+   margin: 0px;
+    }
+  .shopping-title{
+    margin: 0px;
+    padding: 10px 20px 10px 20px ;
+  }
+   .shopping-tools .audi-car, .shopping-tools .bmw-car{
+     width: 50% ;
+     float: left;
+   }
+  .col-left-audi img{
+     max-width: 100%;
+     margin-right: 10px;
+     border-radius: 50px;
+     border-right: 30px;
+     
+   }
+  .col-right-bmw img{
+   
+   }
+  .all-vehicle{
+    float: inherit;
+    display: inline-block;
+    background-color: crimson;
+    margin: ;
+    border-radius: 15px;
+    text-anchor: ;
+    }
+  

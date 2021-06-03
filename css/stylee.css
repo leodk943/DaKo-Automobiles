@@ -1,0 +1,501 @@
+body{
+    margin: 0;
+ }
+
+
+
+
+
+                            /*--navigation section--*/
+
+
+
+
+nav{
+    background-color: yellow;
+    background-color: teal(255, 255, 255, 0.9);
+    background-attachment:initial;
+ }
+  nav: after{
+    content: '';
+    display: block;
+    clear: both;
+ }
+  .logo, .menu{
+     display: inline-block;
+ }
+  .logo{
+    margin: ;
+    color:red;
+    text-shadow: ivory;
+    font-weight: bolder;
+    font-style: inherit;
+    
+   
+ }
+  .menu{
+    float:right;
+    margin: 20px;
+ }
+
+  .menu ul{
+    list-style:none ;
+    padding-left: 0px;
+    margin: 0px;
+    
+ }
+
+  .menu ul li{
+    display: inline-block;
+    margin-right: 20px; 
+
+ }
+  .menu ul li a {
+    text-decoration: none;
+    padding: 6px 15px 6px 15px ;
+ }
+  .menu ul li a:hover{
+    background-color: coral;
+    color:white;
+    transition: all 0.5s ease;
+ }
+
+
+
+   
+               /*-- discrition section--*/
+
+
+
+
+header{
+   background-image:  url(../img/dlack.jpg);
+   color: wheat;
+   height: 400px;
+   background-size: cover;
+   background-repeat: no-repeat;
+  
+ } 
+.header{
+  background-attachment: fixed;
+  background-position-y: -150;
+} 
+
+.welcome{
+  text-align: center;
+  color:rgb(55, 218, 196);
+  
+ }
+
+.lil-info{
+  text-align: center;
+  color:cyan;
+  display: inline-block;
+  height: 90px;
+  width: 400px;
+  margin-left: 490px;
+
+}
+.lil-discription{
+  color: lightsalmon;
+}
+.lil-discription, .ord-and-learn {
+  text-align: center;
+  margin-bottom: 0px;
+  padding-top: 10px;
+  padding-left: 10px;
+}
+ .order, .learn{
+   padding: 10px 25px;
+   margin: 15px 10px;  
+   font-weight: bold;
+   margin: 15px 10px;
+   display: inline-block;
+   border-radius: 15px;
+ }
+.order{
+   background-color: tomato; 
+   color: yellow;
+ }
+
+.learn:hover{
+   background-color: rgb(0, 255, 213);
+   color:hotpink;
+   transition: all 0.7s ease;
+ }
+
+.order:hover{
+   background-color: rgb(0, 255, 213);
+   color: darkorange;
+   transition: all 0.7s ease;
+ }
+.learn{
+    background-color: azure;
+    display: inline-block;
+    color:tomato;
+ } 
+
+
+
+                     /*--shoping tool section--*/
+
+
+
+.Save-time{
+  background-attachment: fixed;
+  height: 1000px;
+}
+
+ .shopping-tools {
+  width: 100%;
+  background-color: none;
+  margin: 30px 0px 20px 0px;
+  text-align: center;
+  display: inline-block;
+   }
+
+
+.audi-car{
+  background-image: url(../img/audi.jpg);
+  margin-right: 100px;
+  border-radius: 30px;
+  border-left: 50px;
+  width: 225px;
+  height: 400px;
+  position:absolute;
+ } 
+.audi-car{
+  background-position-x: 70%;
+  object-position: 70%;
+  width: 230px;
+  left: 33%;
+ } 
+ 
+.bmw-car{ 
+  background-image: url(../img/bmw.jpg);
+  border-radius: 30px;
+  border-left: 20px;
+  width: 225px;
+  height: 400px;
+  margin-left: 18%;
+  position:absolute;
+  border-bottom: 10px;
+ } 
+
+.bmw-car{
+background-position-x: 30%;
+object-position: 50%;
+width: 230px;
+top: 89.53%;
+right: 69%;
+} 
+
+
+.test-on-audi, .test-on-bmw, .test-on-buga, .test-on-lexus{
+  text-align:center;
+  text-anchor: middle;
+  position: absolute;
+  width: 150px;
+  height: 50px;
+  padding-bottom: 15%;
+  margin-top: 10%;
+  } 
+
+.test-on-audi, .test-on-bmw, .test-on-buga, .test-on-lexus{
+  top: 70%;
+  left: 10%;
+ }
+
+.test-on-audi:hover, .test-on-bmw:hover, .test-on-buga:hover, .test-on-lexus:hover{
+
+ border-radius: 20%;
+ background-color:gold;
+ transition: all 0.9s ease;
+ padding: 20px, 10px, 10px, 20px ;
+ margin: 20px 10px 10px 20px ;
+
+}
+
+.all-vehicle{
+  padding: 10px 25px;
+  margin: 15px 10px;  
+  font-weight: bold;
+  margin: 15px 10px;
+  display: inline-block;
+  color: white;
+  text-decoration: none;
+  width: 70px;
+ }
+
+.build-your-own{
+  padding: 10px 25px;
+  margin: 15px 10px;  
+  font-weight: bold;
+  margin: 15px 10px;
+  display: inline-block;
+  color: white;
+  text-decoration: none;
+  width: 70px;
+}
+.lexus-car{ 
+  background-image: url(../img/lexus.jpg);
+  border-radius: 30px;
+  border-left: 10px;
+  width: 225px;
+  height: 400px;
+  position: absolute;
+ }
+.lexus-car{
+  background-position-x: 70%;
+  object-position: 70%;
+  width: 230px;
+  left: 71%;
+  top: 89.53%;
+ } 
+
+.buga-car{ 
+  background-image: url(../img/buga.jpg);
+  border-radius: 30px;
+  border-left: 20px;
+  width: 225px;
+  height: 400px;
+  position: absolute;
+ }
+.buga-car{
+  background-position-x: 70%;
+  object-position: 70%;
+  width: 230px;
+  left: 52%;
+}
+
+.special-offer{
+  padding: 10px 25px;
+  margin: 15px 10px;  
+  font-weight: bold;
+  margin: 15px 10px;
+  display: inline-block;
+  color: white;
+  text-decoration: none;
+  width: 70px;
+ }
+
+.view-inventory{
+  padding: 10px 25px;
+  margin: 15px 10px;  
+  font-weight: bold;
+  margin: 15px 10px;
+  display: inline-block;
+  color: white;
+  text-decoration: none;
+  width: 70px;
+ }
+
+
+
+
+
+
+/*----------------------- DISCOVER DAKO AUTOMOBILE SECTION ------------------------*/
+ 
+
+
+
+.discover {
+  margin: 500px 10PX 70px 10px ;
+  text-align: center;
+ }
+
+
+.below-discover{
+  width: 100%;
+ }
+ 
+.below-discover .col-left-phone, .below-discover .col-right-top {
+  width: 50%;
+  float: left;
+ 
+}
+.phone-in-hand{
+  width: 555.5px;
+  height: auto;
+}
+
+.col-left-phone .phone-in-hand, h4, h3{
+  padding-left: 30px;
+}
+
+.man-under-car{
+  padding-left: 40px;
+}
+.colleft-middle, .benz-wallpaper{
+padding-left: 40px;
+padding-top: -50px;
+margin-top: 50px;
+}
+
+.benz-wallpaper{
+  height: 500px;
+  width: auto;
+}
+
+.fut-vehicles{
+  text-align: center;
+  padding-top: 20px;
+}
+
+.up-comn{
+  font-size: xx-large;
+  color: aqua;
+}
+.dis{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: small;
+  color: chocolate;
+}
+
+
+
+
+/*---------FUTURE VEHICLE SECTION-----------*/
+
+
+.bl-car{
+  width: 100%;
+  background-color: khaki;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.bl-car:after{
+  content: '';
+  display: block;
+  clear: both;
+}
+.bl-car .blcar-left{
+ width: 50%;
+ float: left;
+}
+
+.bl-car .blcar-left{
+  padding-left: 5%;
+  padding-right: 5%;
+
+  
+}
+
+.bl-car .blcar-left img{
+    max-width: 100%;
+    width: 600px;
+    height: auto;
+}
+.bl-car .intro{
+  padding-right: -30%;
+  padding-top: 10%;
+
+}
+.dako{
+  background-color: lawngreen;
+  display: inline-block;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  border-style:double;
+  border-radius: 12px;
+}
+.ex{
+  text-decoration: double;
+}
+
+.ex:hover{
+  background-color:peru ;
+  transition: 0.5s;
+  border-radius: 5px;
+  color: black;
+}
+
+.de-new{
+  color: red;
+}
+
+.accessories{
+  width: 100%;
+  background-color: bisque;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  margin-top: 50px;
+}
+.accessories:after{
+  content: '';
+  display: block;
+  clear: both;
+}
+.accessories .acce-left{
+ width: 50%;
+ float: left;
+}
+
+.accessories .acce-left{
+  padding-left: 2%;
+  padding-right: 1%;
+
+  
+}
+
+.accessories .acce-left img{
+    max-width: 100%;
+    width: 600px;
+    height: auto;
+}
+.accessories .acce-right{
+  float: "";
+  padding-left: 60%;
+  padding-right: 10%;
+  padding-top: 7%;
+
+}
+.accessories .acce-right img{
+  max-width: 100%;
+  width: 600px;
+  height: auto;
+ 
+}
+
+.accessories, p{
+  padding-left: 7%;
+  color:'' ;
+}
+
+
+      /*-------------pre-list sectio------------*/
+
+.pre-list{
+  background-color:'';
+ padding-bottom: 50px;
+ padding-top:    50px;
+ text-align :justify;
+ text-decoration: none;
+
+ 
+ 
+}
+ 
+.pre-list :after{
+  content: '';
+  display: block;
+  clear: both;
+}
+
+ 
+.pre-list .Vehicles, .pre-list .Shoppong-Tools, .pre-list .Owners, .pre-list .Discover-DK{
+ width: 23%;
+ padding-top: -10%;
+ float: left;
+ display: inline-block;
+ text-decoration: none;
+ padding-left: 25px;
+}
+.pre-list .Vehicles{
+text-decoration: none;
+}
+
+.vhn{
+  text-decoration: none;
+}
+
